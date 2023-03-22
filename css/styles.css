@@ -72,14 +72,14 @@ body{
     background-position: center;
     background-size: cover;
   }
-  /*@media screen and (min-device-pixel-ratio: 2) and (max-width:767px),
+  @media screen and (min-device-pixel-ratio: 2) and (max-width:767px),
     screen and (min-resolution: 192dpi) and (max-width:767px),
     screen and (min-resolution: 2dppx) and (max-width:767px) {
     .headline-box {
       background-image: var(--background-gradient),
         url(../images/photo-3.jpg);
     }
-    }*/
+    }
  
   .headline-button {
     display: block;
@@ -1205,7 +1205,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
      @media screen and (min-width:768px){
         .headline-box {
             background-image: var(--background-gradient),
-            url(../images/t-sol-1x.jpg);  
+            url(../images/photo-3.jpg);  
         } 
       } 
       @media screen and (min-device-pixel-ratio: 2) and (min-width:768px),
@@ -1213,7 +1213,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     screen and (min-resolution: 2dppx) and (min-width:768px) {
     .headline-box {
       background-image: var(--background-gradient),
-        url(../images/t-sol-2x.jpg);
+        url(../images/photo-3.jpg);
     }
     }
     
@@ -1387,7 +1387,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
  @media screen and (min-width:1200px){
     .headline-box {
         background-image: var(--background-gradient),
-        url(../images/d-sol-1x.jpg);  
+        url(../images/photo-3.jpg);  
     } 
   }
   
@@ -1397,7 +1397,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     screen and (min-resolution: 2dppx) and (min-width:1200px) {
     .headline-box {
       background-image: var(--background-gradient),
-        url(../images/d-sol-2x.jpg);
+        url(../images/photo-3.jpg);
     }
     }
 
@@ -1442,7 +1442,7 @@ font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
 color: var(--body-background-color);
-width: 496px;
+width: 600px;
 margin: auto;
 margin-bottom: 48px;
 }
