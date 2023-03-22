@@ -668,7 +668,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                             font-size: 30px;
                             line-height: 1.11;
                             letter-spacing: 0.02em;
-                            width: 300px;
+                            text-align: center;
+                            width: 315px;
                             margin: 0 auto 72px;
                           }
                       
@@ -1286,9 +1287,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    
     .headline-tablet{ 
         font-weight: 700;
-        font-size: 56px;
+        font-size: 50px;
         line-height: 1.07;
         letter-spacing: 0.02em;
+        text-align: center;
         color: var(--body-background-color);
         width: 496px;
         margin: auto;
