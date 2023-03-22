@@ -663,7 +663,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                             gap: 40px;
                             justify-content: center;
                         }
-                        
+                       
                         .headline {
                             color: var(--body-background-color);
                             font-weight: 700;
@@ -843,11 +843,11 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
                             text-align: center;
                             }
                             .features-text-mobile{
-                            font-size: 16px;
+                            font-size: 20px;
                             line-height: 1.5;
                             letter-spacing: 0.02em;
                             color: var(--slate-color);
-                            
+                            text-align: center;
                             }
                             .team{
                                 display: flex;
@@ -1125,7 +1125,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    color: var(--navy-blue-color);
+    color: var(--iris-color);
     margin-bottom: 8px;
     text-align: center;
     }
@@ -1305,10 +1305,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
        
         .features-header-tablet{
         font-weight: 700;
-        font-size: 36px;
+        font-size: 30px;
         line-height: 1.11;
         letter-spacing: 0.02em;
-        color: var(--navy-blue-color);
+        color: var(--iris-color);
         margin-bottom: 8px;
         }
         .features-text-tablet{
@@ -1323,7 +1323,8 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         .features-list-tablet{
             display: flex;
             flex-wrap: wrap;
-          gap: 72px 24px;
+        row-gap: 72px;
+        column-gap: 24px;
           justify-content: center;
         }
        .team{
@@ -1465,7 +1466,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: var(--navy-blue-color);
+color: var(--iris-color);
 margin-bottom: 8px;
 margin-top: 8px;
 }
