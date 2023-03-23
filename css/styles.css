@@ -626,8 +626,8 @@ color: var(--slate-color);
                              
                              .container {
                                 max-width: 428px;
-                                padding-left: 25px;
-                                padding-right: 25px;
+                                padding-left: 15px;
+                                padding-right: 15px;
                                 margin-left: auto;
                                 margin-right: auto;
                               }
@@ -943,8 +943,8 @@ color: var(--slate-color);
 @media screen and (min-width:480px)and (max-width:767px) {
     .container {
         max-width: 428px;
-        padding-left: 25px;
-        padding-right: 25px;
+        padding-left: 15px;
+        padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
       }
