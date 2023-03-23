@@ -114,7 +114,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   .logo-link{
       font-family: 'Raleway',sans-serif;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: var(--navy-blue-color);
@@ -508,11 +508,6 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         text-transform: capitalize;
         color: var(--navy-blue-color);
         }
-        .customers{
-        padding-top: 96px;
-        padding-bottom: 96px;
-        
-        }
         .customers-header2{
 font-weight: 500;
 font-size: 20px;
@@ -646,8 +641,7 @@ color: var(--slate-color);
                         .menu{
                             display: none;
                         }
-                        .features-list,
-                        .our-work
+                        .features-list
                         {
                             display: none;
                         }
@@ -868,13 +862,18 @@ color: var(--slate-color);
                                 flex-direction: column;
                                 gap: 72px;
                             }
+                              .customers{
+        padding-top: 96px;
+        padding-bottom: 96px;
+        
+        }
                             .customers-list{
                               text-align: left;
                                 display: flex;
                                 flex-direction: column;
                                
                             }
-                             .customers-header2{
+      .customers-header2{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -889,6 +888,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate-color);
         }
+        .our-work{
+    padding-bottom: 96px;
+    text-align: center;
+}
                                 .footer-container{
                                     display: flex;
                                     flex-direction: column;
@@ -954,11 +957,11 @@ color: var(--slate-color);
 .menu{
     display: none;
 }
-.features-list,
-.our-work
+.features-list
 {
     display: none;
 }
+
 .headline {
     color: var(--body-background-color);
     font-weight: 700;
@@ -1152,10 +1155,19 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         flex-direction: column;
         gap: 72px;
     }
+      .customers{
+        padding-top: 96px;
+        padding-bottom: 96px;
+        
+        }
     .customers-list{
       margin-top: 72px;
     text-align: left;
     }
+    .our-work{
+    padding-bottom: 96px;
+    text-align: center;
+}
         .footer-container{
             display: flex;
             flex-direction: column;
@@ -1340,7 +1352,9 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         align-items: center;
         align-content: center;
        }
-       
+       .customers{
+        padding-top: 96px;
+        }
         .customers-list{
             display: flex;
          flex-direction: column;
@@ -1348,13 +1362,14 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
             align-items: center;
             align-content: center;
         }
+        .our-work{
+    padding-bottom: 120px;
+    text-align: center;
+}
              .between{
             display: flex;
             gap: 164px;
         }
-         .our-work{
-            display: none;
-         }
          .subscribe-form{
             display: flex;
             gap: 24px; 
@@ -1434,6 +1449,18 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
      .tablet-header-list{
         display: none;
      }
+     .logo-link{
+      font-family: 'Raleway',sans-serif;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: var(--navy-blue-color);
+  text-decoration: none;
+  margin-right: 76px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  }
 .section{
     padding-top: 188px;
     padding-bottom: 188px;
@@ -1501,7 +1528,7 @@ color: var(--slate-color);
     align-items: center;
 }
 .our-work{
-    padding-bottom: 120px;
+    padding-bottom: 72px;
     text-align: center;
 }
 .work-img{
@@ -1541,7 +1568,6 @@ color: var(--slate-color);
 
 .customers{
 padding-top: 120px;
-padding-bottom: 120px;
 
 }
 .customers-list{
