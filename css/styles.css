@@ -513,7 +513,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--iris-color);
 margin-bottom: 8px;
-margin-top: 8px;
+margin-top: 72px;
         }
         .customers-text{
          font-size: 16px;
@@ -865,6 +865,21 @@ color: var(--slate-color);
                                 flex-direction: column;
                                
                             }
+                             .customers-header2{
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--iris-color);
+margin-bottom: 8px;
+margin-top: 72px;
+        }
+        .customers-text{
+         font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--slate-color);
+        }
                                 .footer-container{
                                     display: flex;
                                     flex-direction: column;
