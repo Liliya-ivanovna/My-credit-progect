@@ -827,7 +827,7 @@ color: var(--slate-color);
                         
                         .features-mobile{
                             padding-top: 96px;
-                            padding-bottom: 96px;
+                            
                         }
                         .features-list-mobile{
                             display: flex;
@@ -1131,7 +1131,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
 .features-mobile{
     padding-top: 96px;
-    padding-bottom: 96px;
+    
 }
 .features-list-mobile{
     display: flex;
