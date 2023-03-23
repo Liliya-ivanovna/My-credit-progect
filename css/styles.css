@@ -425,7 +425,15 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
     border-color: var(--iris-color);
 }
-
+.features-header-mobile{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    color: var(--iris-color);
+    margin-bottom: 8px;
+    text-align: center;
+    }
  .team-list{
         background: var(--cloud-color);
         padding-bottom: 96px;
