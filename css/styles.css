@@ -82,6 +82,7 @@ body{
         url(../images/photo-3.jpg);
     }
     }
+
  .clock{
     fill: #F4F4FD;
  }
@@ -511,6 +512,7 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
         color: var(--navy-blue-color);
         }
         .customers-header2{
+            text-align: center;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -620,6 +622,30 @@ color: var(--slate-color);
                              }
                              .subscribe-btn:is(:hover,:focus){
                              background: var(--ocean-color);
+                             }
+                             .pryvacy{
+                                background-color:var(--cloud-color) ;
+                                padding-top: 72px;
+                                padding-bottom: 72px;
+                             }
+                             .page-notifications{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 12px;
+                                font-size: 16px;
+                                line-height: 1.5;
+                                letter-spacing: 0.02em;
+                                color: var(--slate-color);
+   
+                             }
+                             .pryvacy-header{
+                                font-weight: 700;
+                                font-size: 20px;
+                                line-height: 1.11;
+                                letter-spacing: 0.02em;
+                                color: var(--iris-color);
+                                margin-bottom: 24px;
+                                text-align: center;  
                              }
                              
                              /*-------------320px----------*/
@@ -894,6 +920,7 @@ color: var(--slate-color);
     padding-bottom: 96px;
     text-align: center;
 }
+
                                 .footer-container{
                                     display: flex;
                                     flex-direction: column;
@@ -940,6 +967,26 @@ color: var(--slate-color);
                             color: rgba(255, 255, 255, 0.6);
                             background: var(--navy-blue-color);
                             }
+                            .page-notifications{
+                                display: flex;
+                                flex-direction: column;
+                                gap: 8px;
+                                font-size: 12px;
+                                line-height: 1.5;
+                                letter-spacing: 0.02em;
+                                color: var(--slate-color);
+                        
+                             }
+                             .pryvacy-header{
+                                font-weight: 500;
+                                font-size: 16px;
+                                line-height: 1.11;
+                                letter-spacing: 0.02em;
+                                color: var(--iris-color);
+                                margin-bottom: 18px;
+                                text-align: center;  
+                             }
+                             
                             }          
 /*-------------------mobile-menu------------------------*/
 @media screen and (min-width:480px)and (max-width:767px) {
@@ -1216,6 +1263,25 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     color: rgba(255, 255, 255, 0.6);
     background: var(--navy-blue-color);
     }
+    .page-notifications{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        font-size: 12px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: var(--slate-color);
+
+     }
+     .pryvacy-header{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        color: var(--iris-color);
+        margin-bottom: 18px;
+        text-align: center;  
+     }
        
     }
      /*-----------------tablet--menu----------------*/ 
